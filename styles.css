@@ -1,0 +1,68 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Quicksand, sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.container{
+    width: 100%;
+    height: 100Vh;
+    display: grid;
+    place-items: center;
+    z-index: 10;
+}
+
+.menu{
+    width: 120rem;
+    height: 20rem;
+    /* background-color:rgb(230, 222, 236); */
+    border-radius: 2rem;
+    position: relative;
+    display: flex;
+    z-index: 10;
+    
+}
+
+.Light-Button {
+    width: 33%;
+    height: 50%;
+    padding: 4rem;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+
+}
+
+.Dark-Button {
+    width: 33%;
+    height: 50%;
+    padding: 4rem;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+
+
+}
+
+.Swap-Button {
+    width: 33%;
+    height: 50%;
+    padding: 4rem;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+
+}
+
+h3 {
+    background-color: rgb(211, 193, 174) !important;
+    padding: 2rem 6rem 2rem 6rem;
+    border-radius: 10px;
+    font-size: 50px;
+    
+}
